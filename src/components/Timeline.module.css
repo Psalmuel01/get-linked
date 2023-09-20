@@ -1,0 +1,47 @@
+.timeline {
+  padding: 5% 8%;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.timeline h4,
+h3 {
+  font-family: "Clash Display", sans-serif;
+}
+
+.about {
+  margin-bottom: 5%;
+}
+
+.about h3 {
+  font-size: 32px;
+}
+
+.about p {
+  font-size: 14px;
+  width: 30%;
+  margin: auto;
+}
+
+.timeline p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%;
+}
+
+.schedule {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.schedule h4 {
+  font-size: 24px;
+}
+
+.schedule p {
+  font-size: 16px;
+}

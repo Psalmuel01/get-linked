@@ -1,0 +1,50 @@
+.event,
+.num,
+.num h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event {
+  gap: 50px;
+}
+
+.event:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.event div {
+  flex: 3;
+}
+
+.num {
+  flex: 1 !important;
+}
+
+.details {
+  text-align: right;
+}
+
+.time {
+  text-align: left;
+}
+
+.event:nth-child(even) .details {
+  text-align: left;
+}
+
+.event:nth-child(even) .time {
+  text-align: right;
+}
+
+.num h4 {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
+}
+
+.colored {
+  color: #d434fe;
+}
