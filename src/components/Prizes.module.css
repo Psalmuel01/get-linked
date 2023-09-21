@@ -1,0 +1,107 @@
+.prizes {
+  padding: 5% 8%;
+  padding-left: 6%;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  gap: 12%;
+  /* justify-content: space-between; */
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+
+.right p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 170.9%;
+  width: 85%;
+}
+
+.colored {
+  color: #d434fe;
+}
+
+.colored2 {
+  color: #903aff;
+}
+
+.about {
+  margin: 5% 20% 15%;
+}
+
+.about h3 {
+  font-family: "Clash Display", sans-serif;
+  font-size: 32px;
+  margin-bottom: 5%;
+  width: 65%;
+}
+
+.about p {
+    margin: 0;
+}
+
+img {
+  scale: 0.85;
+  object-fit: cover;
+}
+
+.collection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  width: 190px; /*212*/
+  height: 266px; /*296*/
+  border-radius: 8px;
+  border: 1px solid #d434fe;
+  background: rgba(212, 52, 254, 0.12);
+  position: relative;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.box:nth-child(2) {
+  height: 312px; /*347*/
+  padding-top: 12%;
+  background: rgba(144, 58, 255, 0.12);
+}
+
+.box h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.box h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.box h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.collection img {
+  position: absolute;
+  top: -40%;
+}
+
+.gold {
+  position: absolute;
+  top: -50% !important;
+}
