@@ -1,6 +1,7 @@
 // import { useState } from "react";
 
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import Judging from "./components/Judging";
@@ -22,6 +23,7 @@ function App() {
       <Prizes />
       <Partners />
       <Privacy />
+      <Footer />
     </>
   );
 }

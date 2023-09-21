@@ -1,0 +1,77 @@
+/* color: #fff;
+font-family: Clash Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; */
+
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  background: #100b20;
+  padding: 5% 8%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 172.4%;
+}
+
+h4 {
+  font-family: "Clash Display", sans-serif;
+  font-size: 30px;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.colored {
+  color: #d434fe;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 13%;
+}
+
+.footnote {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.terms {
+  display: flex;
+  width: 70%;
+  position: relative;
+}
+
+.terms p:first-child::after {
+  content: "";
+  position: absolute;
+  left: 40%;
+  height: 100%;
+  width: 2px;
+  background: #d434fe;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.links, .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px ;
+}

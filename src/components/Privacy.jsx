@@ -4,7 +4,7 @@ import Button from "./Button";
 const Privacy = () => {
   return (
     <div className={classes.privacy}>
-      <div className="left">
+      <div>
         <div className={classes.about}>
           <h3>
             Privacy Policy and <span className={classes.colored}>Terms</span>
@@ -51,7 +51,7 @@ const Privacy = () => {
           <Button>Read More</Button>
         </div>
       </div>
-      <div className={classes.right}>
+      <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="530"
@@ -78,7 +78,7 @@ const Privacy = () => {
             </linearGradient>
           </defs>
         </svg>
-        <img src="src/assets/padlock.png" alt="" />
+        <img className={classes.padlock} src="src/assets/padlock.png" alt="" />
       </div>
     </div>
   );
