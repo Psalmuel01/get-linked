@@ -1,0 +1,93 @@
+.privacy {
+  padding: 8%;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+
+  /* text-align: center; */
+  display: flex;
+}
+
+h3 {
+  font-family: "Clash Display", sans-serif;
+  font-size: 32px;
+  margin-bottom: 2%;
+  width: 60%;
+}
+
+h5 {
+  font-family: "Clash Display", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  width: 100%;
+}
+
+.colored {
+  color: #d434fe;
+}
+
+svg {
+  position: absolute;
+}
+
+.left {
+}
+
+.about {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.about p:first-of-type {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 2%;
+}
+
+.about p {
+  line-height: 188.4%;
+  width: 75%;
+}
+
+.box {
+  margin-top: 50px !important;
+  padding: 10%;
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(217, 217, 217, 0.03);
+  width: 569px;
+  height: 608px;
+}
+
+.box p,
+.box h5 {
+  line-height: 216.4%;
+}
+
+.box p:first-child {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.licensing {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  /* gap: 50%; */
+  margin-bottom: 30px;
+}
+
+.license {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.license div {
+  margin-top: 1.5%;
+}

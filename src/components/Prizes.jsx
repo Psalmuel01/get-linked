@@ -23,7 +23,11 @@ const Prizes = () => {
             <h3 className={classes.colored}>N300,000</h3>
           </div>
           <div className={classes.box}>
-            <img className={classes.gold} src="src/assets/gold-medal.png" alt="" />
+            <img
+              className={classes.gold}
+              src="src/assets/gold-medal.png"
+              alt=""
+            />
             <h2>1st</h2>
             <h4>Runner</h4>
             <h3 className={classes.colored2}>N400,000</h3>

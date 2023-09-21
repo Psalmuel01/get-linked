@@ -85,6 +85,7 @@
   font-style: italic;
   font-weight: 700;
   text-align: end;
+  width: 100%;
   /* line-height: normal; */
 }
 
@@ -92,18 +93,18 @@
   display: flex;
   flex-direction: column;
   align-items: end;
+  position: relative;
 }
 
 .participate {
   position: absolute;
-  top: 8%;
-  left: 55%;
+  /* left: -15%; */
+  transform: translate(0%, -60%);
 }
 
 .underline svg {
   position: absolute;
-  top: 18%;
-  right: 5%;
+ transform: translate(-15%, 50%);
 }
 
 .image {
