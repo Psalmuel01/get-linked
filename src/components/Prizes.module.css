@@ -6,14 +6,64 @@
   align-items: center;
   gap: 12%;
   /* justify-content: space-between; */
+  background: url("src/assets/Purple-Lens-Flare-PNG-2.png"),
+    #150e28 -204.25px 7px / 119.817% 104.852% no-repeat;
+  background-blend-mode: hard-light;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .left {
   width: 35%;
+  position: relative;
+}
+
+.star {
+  position: absolute;
+}
+
+.star:nth-child(1) {
+  background: green;
+}
+
+.star:nth-child(2) {
+  width: 15px;
+  height: 18px;
+  top: -20%;
+  left: 55%;
+  background: yellow;
+}
+
+.star:nth-child(3) {
+  width: 21px;
+  height: 25px;
+  bottom: -10%;
+  left: 55%;
+  background: red;
 }
 
 .right {
   width: 65%;
+  position: relative;
+}
+
+.star:nth-child(4) {
+  width: 26px;
+  height: 32px;
+  top: 30%;
+  left: 7%;
+}
+
+.star:nth-child(5) {
+  /* top: 10%;
+  right: 30%; */
+}
+
+.star:nth-child(6) {
+  right: 40%;
+}
+
+.star:nth-child(7) {
+  right: 50%;
 }
 
 .right p {

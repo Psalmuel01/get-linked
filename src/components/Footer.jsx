@@ -1,5 +1,4 @@
 import classes from "./Footer.module.css";
-// import FacebookIcon from "@mui/icons-material/Facebook";
 
 const Footer = () => {
   return (
@@ -27,23 +26,24 @@ const Footer = () => {
           <p>Timeline</p>
           <p>FAQs</p>
           <p>Register</p>
-          <div className="links">
-            <p className={classes.colored}>Follow us</p>
-            <img src="ig" alt="" />
-            <img src="X" alt="" />
-            <img src="fb" alt="" />
-            {/* <FacebookIcon /> */}
-            <img src="linkedin" alt="" />
+          <div className={classes.links}>
+            <div>
+              <p className={classes.colored}>Follow us</p>
+            </div>
+            <img src="src/assets/instagram.svg" alt="" />
+            <img src="src/assets/twitter.svg" alt="" />
+            <img src="src/assets/facebook.svg" alt="" />
+            <img src="src/assets/linkedin.svg" alt="" />
           </div>
         </div>
         <div className={classes.other}>
           <h6 className={classes.colored}>Contact Us</h6>
           <div className={classes.contact}>
-            <img src="phone" alt="" />
+            <img src="src/assets/phone.svg" alt="" />
             <p>+234 679 81819</p>
           </div>
           <div className={classes.contact}>
-            <img src="map" alt="" />
+            <img src="src/assets/location.svg" alt="" />
             <p> 27, Alara Street Yaba 100012 Lagos State</p>
           </div>
         </div>

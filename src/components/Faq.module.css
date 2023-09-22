@@ -1,5 +1,5 @@
 .faq {
-  padding: 3% 8%;
+  padding: 7% 8% 1%;
   display: flex;
   overflow: hidden;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
@@ -11,6 +11,17 @@
   flex-direction: column;
   gap: 15px;
   padding: 4% 1%;
+}
+
+.star {
+  position: absolute;
+}
+
+.star:nth-child(1) {
+  width: 30px;
+  height: 36px;
+  position: absolute;
+  transform: translate(-120%, -180%);
 }
 
 .left h3 {
@@ -50,8 +61,38 @@
 
 .right {
   width: 60%;
+  position: relative;
 }
 
 .qimg {
   scale: 0.8;
+}
+
+.star:nth-child(2) {
+  width: 21px;
+  height: 25px;
+  top: 5%;
+  left: 50%;
+
+}
+
+.star:nth-child(3) {
+  width: 21px;
+  height: 25px;
+  top: 23%;
+  left: 25%;
+}
+
+.star:nth-child(4) {
+  width: 26px;
+  height: 32px;
+  left: 15%;
+  bottom: 47%;
+}
+
+.star:nth-child(5) {
+  width: 26px;
+  height: 32px;
+  right: 20%;
+  bottom: 6%;
 }

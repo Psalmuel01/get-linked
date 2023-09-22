@@ -70,8 +70,10 @@ h6 {
   gap: 13px;
 }
 
-.links, .contact {
+.links,
+.contact {
   display: flex;
-  flex-direction: column;
-  gap: 10px ;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
 }

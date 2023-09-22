@@ -5,8 +5,14 @@ const Prizes = () => {
     <div className={classes.prizes}>
       <div className={classes.left}>
         <img src="src/assets/prize.png" alt="" />
+        <img className={classes.star} src="src/assets/star-col.png" alt="" />
+        <img className={classes.star} src="src/assets/star.png" alt="" />
       </div>
       <div className={classes.right}>
+        <img className={classes.star} src="src/assets/star.png" alt="" />
+        <img className={classes.star} src="src/assets/star.png" alt="" />
+        <img className={classes.star} src="src/assets/star.png" alt="" />
+        <img className={classes.star} src="src/assets/star.png" alt="" />
         <div className={classes.about}>
           <h3>
             Prizes and <span className={classes.colored}>Rewards</span>

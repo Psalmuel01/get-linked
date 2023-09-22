@@ -1,8 +1,7 @@
 .hero {
-  background: url("../assets/Purple-Lens-Flare-PNG.png"),
+  background: url("src/assets/Purple-Lens-Flare-PNG-2.png"),
     #150e28 -155.25px -155px / 114.411% 118.9% no-repeat;
   background-blend-mode: hard-light;
-  width: 100vw;
   height: 815px;
   overflow: hidden;
   position: relative;
@@ -15,13 +14,20 @@
 
 .star {
   position: absolute;
+}
+
+.star {
   left: 12.5%;
 }
-.star2 {
-  position: absolute;
+
+.star:nth-child(2) {
   top: 27.5%;
   left: 53%;
-  filter: grayscale(50%);
+}
+
+.star:nth-child(3) {
+  bottom: 25%;
+  left: 33%;
 }
 
 .left {
@@ -104,7 +110,7 @@
 
 .underline svg {
   position: absolute;
- transform: translate(-15%, 50%);
+  transform: translate(-15%, 50%);
 }
 
 .image {

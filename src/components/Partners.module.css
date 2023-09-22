@@ -2,6 +2,9 @@
   padding: 8%;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
+  background: url("src/assets/Purple-Lens-Flare-PNG-4.png"),
+    #150e28 -204.25px 7px / 119.817% 104.852% no-repeat;
+  background-blend-mode: hard-light;
   /* text-align: center; */
 }
 

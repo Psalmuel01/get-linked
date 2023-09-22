@@ -8,25 +8,23 @@ const Hero = () => {
       <Header />
       <div className={classes["hero-body"]}>
         <img className={classes.star} src="src/assets/star.png" alt="" />
-        <img className={classes.star2} src="src/assets/star.png" alt="" />
+        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
+        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
         <div className={classes.left}>
           <div>
             <h1>
-            <div className={classes.up}>
-              getlinked Tech
-              <img className={classes.bulb} src="src/assets/Creative.png" alt="" />
-
-            </div>
+              <div className={classes.up}>
+                getlinked Tech
+                <img
+                  className={classes.bulb}
+                  src="src/assets/creative.png"
+                  alt=""
+                />
+              </div>
               <div className={classes.down}>
                 Hackathon <span className={classes.colored}>1.0</span>
-                <img
-                  src="src/assets/chain-9365116-7621444.png"
-                  alt=""
-                />
-                <img
-                  src="src/assets/1f4a5.png"
-                  alt=""
-                />
+                <img src="src/assets/chain-9365116-7621444.png" alt="" />
+                <img src="src/assets/1f4a5.png" alt="" />
               </div>
             </h1>
           </div>

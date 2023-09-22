@@ -12,6 +12,9 @@ const Timeline = () => {
         </p>
       </div>
       <div className={classes.schedule}>
+        <img className={classes.star} src="src/assets/star-col.png" alt="" />
+        <img className={classes.star} src="src/assets/star.png" alt="" />
+        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
         <Event
           a="Hackathon Announcement"
           b="The getlinked tech hackathon 1.0 is formally announced to the general

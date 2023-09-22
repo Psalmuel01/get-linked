@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <div className={classes.faq}>
       <div className={classes.left}>
-        {/* <img className={classes.star} src="src/assets/star.png" alt="" /> */}
+        <img className={classes.star} src="src/assets/star-col.png" alt="" />
         <h3>
           Frequently Asked <span className={classes.colored}>Questions</span>
         </h3>
@@ -71,8 +71,10 @@ const Faq = () => {
       </div>
       <div className={classes.right}>
         <img className={classes.qimg} src="src/assets/questions.png" alt="" />
-        {/* <img className={classes.star} src="src/assets/star.png" alt="" /> */}
-        {/* <img className={classes.star} src="src/assets/star.png" alt="" /> */}
+        <img className={classes.star} src="src/assets/star-col.png" alt="" />
+        <img className={classes.star} src="src/assets/star-col.png" alt="" />
+        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
+        <img className={classes.star} src="src/assets/star.png" alt="" />
       </div>
     </div>
   );

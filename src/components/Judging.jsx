@@ -5,9 +5,10 @@ const Judging = () => {
   return (
     <div className={classes.judging}>
       <div className={classes.left}>
-        {/* <img className={classes.star} src="src/assets/star-col.png" alt="" />
-        <img className={classes.star} src="src/assets/arrow.png" alt="" />
-        <img className={classes.star} src="src/assets/arrow.png" alt="" /> */}
+        <img className={classes.star} src="src/assets/star-col.png" alt="" />
+        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
+        <img className={classes.star} src="src/assets/star.png" alt="" />
+        <img className={classes.ellipse} src="src/assets/ellipse.svg" alt="" />
         <img src="src/assets/judging.png" alt="" />
       </div>
       <div className={classes.right}>

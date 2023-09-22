@@ -2,8 +2,8 @@
   padding: 1% 10% 3% 8%;
   display: flex;
   align-items: center;
-  background: url("src/assets/Purple-Lens-Flare-PNG-2.png"),
-    #150e28 -204.25px 7px / 119.817% 104.852% no-repeat;
+  background: url("src/assets/Purple-Lens-Flare-PNG.png") #150e28 -204.25px 7px / 119.817%
+      104.852% no-repeat;
   background-blend-mode: hard-light;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
   position: relative;

@@ -10,7 +10,7 @@
   gap: 50px;
 }
 
-.event:nth-child(even) {
+.event:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
@@ -30,11 +30,11 @@
   text-align: left;
 }
 
-.event:nth-child(even) .details {
+.event:nth-child(odd) .details {
   text-align: left;
 }
 
-.event:nth-child(even) .time {
+.event:nth-child(odd) .time {
   text-align: right;
 }
 

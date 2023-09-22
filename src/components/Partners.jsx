@@ -24,17 +24,14 @@ const Partners = () => {
           <img src="src/assets/wisper.png" alt="" />
         </div>
         <div className={classes.sponsors}>
-          {/* <h1>
-            pay<span className={classes.blue}>box</span>
-          </h1> */}
-          <img src="src/assets/paybox.png" alt="" />
-          {/* <img src="src/assets/box.png" alt="" /> */}
+          <img style={{ width: "60%" }} src="src/assets/paybox.png" alt="" />
         </div>
         <div className={classes.sponsors}>
-          {/* <h1>
-            Vuzual <span className={classes.red}>Plus</span>
-          </h1> */}
-          <img style={{ width: "75%"}} src="src/assets/vuzualplus.png" alt="" />
+          <img
+            style={{ width: "75%" }}
+            src="src/assets/vuzualplus.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
