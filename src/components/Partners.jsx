@@ -11,6 +11,9 @@ const Partners = () => {
         </p>
       </div>
       <div className={classes.box}>
+      <img className={classes.star} src="src/assets/star-col.png" alt="" />
+      <img className={classes.star} src="src/assets/star-col.png" alt="" />
+      <img className={classes.star} src="src/assets/star.png" alt="" />
         <div className={classes.sponsors}>
           <img src="src/assets/liberty.png" alt="" />
         </div>

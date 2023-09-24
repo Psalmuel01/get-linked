@@ -1,6 +1,5 @@
 .prizes {
-  padding: 5% 8%;
-  padding-left: 6%;
+  padding: 5% 8% 8% 6%;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
   align-items: center;
@@ -21,24 +20,18 @@
   position: absolute;
 }
 
-.star:nth-child(1) {
-  background: green;
-}
-
-.star:nth-child(2) {
-  width: 15px;
-  height: 18px;
-  top: -20%;
-  left: 55%;
-  background: yellow;
-}
-
-.star:nth-child(3) {
+.left .star:nth-child(2) {
   width: 21px;
   height: 25px;
-  bottom: -10%;
+  top: -20%;
   left: 55%;
-  background: red;
+}
+
+.left .star:nth-child(3) {
+  width: 15px;
+  height: 18px;
+  left: 50%;
+  bottom: -10%;
 }
 
 .right {
@@ -46,24 +39,30 @@
   position: relative;
 }
 
-.star:nth-child(4) {
+.right .star:nth-child(1) {
   width: 26px;
   height: 32px;
   top: 30%;
   left: 7%;
 }
 
-.star:nth-child(5) {
-  /* top: 10%;
-  right: 30%; */
+.right .star:nth-child(2) {
+  right: 41%;
+  top: 17%;
+  width: 21px;
+  height: 25px;
 }
 
-.star:nth-child(6) {
-  right: 40%;
+.right .star:nth-child(3) {
+  width: 26px;
+  height: 32px;
+  top: 45%;
+  right: -2%;
 }
 
-.star:nth-child(7) {
-  right: 50%;
+.right .star:nth-child(4) {
+  bottom: -5%;
+  right: 30%;
 }
 
 .right p {
@@ -71,6 +70,9 @@
   font-size: 14px;
   line-height: 170.9%;
   width: 85%;
+  /* careful here */
+  position: relative;
+  z-index: 999;
 }
 
 .colored {
@@ -104,8 +106,8 @@ img {
 }
 
 .box {
-  width: 190px; /*212*/
-  height: 266px; /*296*/
+  width: 30%; /*212/190*/
+  height: 266px; /*296/266*/
   border-radius: 8px;
   border: 1px solid #d434fe;
   background: rgba(212, 52, 254, 0.12);
@@ -152,4 +154,40 @@ img {
 .gold {
   position: absolute;
   top: -50% !important;
+}
+
+@media (max-width: 1240px) {
+  .prizes {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6% 8%;
+  }
+
+  .left {
+    width: unset;
+  }
+
+  .left .idea {
+    transform: none;
+  }
+
+  .right {    
+    text-align: center;
+    width: 90%;
+  }
+
+  .right p,
+  .right h3 {
+    width: unset;
+  }
+
+  .collection {
+    margin-top: -15%;
+
+  }
+
+  .box {
+    /* width: 30%; */
+  }
 }

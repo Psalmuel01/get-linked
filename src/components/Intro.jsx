@@ -5,7 +5,7 @@ const Intro = () => {
     <div className={classes.intro}>
       <div className={classes.left}>
         <img className={classes.star} src="src/assets/star-col.png" alt="" />
-        <img src="src/assets/big-idea.png" alt="" />
+        <img className={classes.idea} src="src/assets/big-idea.png" alt="" />
         <img className={classes.arrow} src="src/assets/arrow.png" alt="" />
       </div>
       <div className={classes.right}>

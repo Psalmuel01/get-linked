@@ -1,17 +1,20 @@
 import classes from "./Event.module.css";
 
-const Event = ({ a, b, c, d }) => {
+const Event = ({ title, text, id, date }) => {
   return (
     <div className={classes.event}>
       <div className={classes.details}>
-        <h4 className={classes.colored}>{a}</h4>
-        <p>{b}</p>
+        <h4 className={classes.colored}>{title}</h4>
+        <p className={classes.text}>{text}</p>
       </div>
       <div className={classes.num}>
-        <h4>{c}</h4>
+        <h4>{id}</h4>
       </div>
-      <div>
-        <h4 className={`${classes.colored} ${classes.time}`}>{d}</h4>
+      <div className={classes.extra}>
+        <div className={classes.num2}>
+          <h4>{id}</h4>
+        </div>
+        <h4 className={`${classes.colored} ${classes.time}`}>{date}</h4>
       </div>
     </div>
   );

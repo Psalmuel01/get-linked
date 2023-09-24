@@ -1,5 +1,5 @@
 .timeline {
-  padding: 6% 8%;
+  padding: 6% 9%;
   padding-bottom: 10%;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -41,11 +41,11 @@ h3 {
 }
 
 .schedule h4 {
-  font-size: 24px;
+  font-size: 21px;
 }
 
 .schedule p {
-  font-size: 16px;
+  font-size: 15px;
   width: 100%;
 }
 
@@ -67,4 +67,11 @@ h3 {
 
 .star:nth-child(3) {
   bottom: 4%;
+}
+
+@media (max-width: 960px) {
+  .star:nth-child(3) {
+    bottom: -5%;
+    left: -5%;
+  }
 }

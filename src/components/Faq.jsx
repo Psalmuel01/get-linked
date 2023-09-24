@@ -70,7 +70,7 @@ const Faq = () => {
         </div>
       </div>
       <div className={classes.right}>
-        <img className={classes.qimg} src="src/assets/questions.png" alt="" />
+        <img className={classes.qimg} src="./assets/questions.png" alt="" />
         <img className={classes.star} src="src/assets/star-col.png" alt="" />
         <img className={classes.star} src="src/assets/star-col.png" alt="" />
         <img className={classes.star} src="src/assets/star-dead.png" alt="" />

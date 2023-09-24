@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .about p {
@@ -38,6 +39,32 @@ h3 {
   grid-template-rows: repeat(2, 100px);
   grid-row-gap: 90px;
   margin: auto;
+  position: relative;
+}
+
+.star {
+  position: absolute;
+}
+
+.star:nth-child(1) {
+  width: 30px;
+  height: 36px;
+  left: 2%;
+  top: -9%;
+}
+
+.star:nth-child(2) {
+  width: 21px;
+  height: 25px;
+  right: 42%;
+  top: 13%;
+}
+
+.star:nth-child(3) {
+  width: 26px;
+  height: 32px;
+  right: 42%;
+  bottom: 11%;
 }
 
 .sponsors {
@@ -72,4 +99,10 @@ h3 {
 
 .sponsors:nth-child(3n):after {
   display: none;
+}
+
+@media (max-width: 1162px) {
+  .about p {
+    width: 70%;
+  }
 }

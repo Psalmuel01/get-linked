@@ -96,3 +96,27 @@
   right: 13.5%;
 } */
 
+
+@media (max-width: 1056px) {
+  .judging {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6% 8%;
+  }
+
+  .left {
+    width: unset;
+  }
+
+  .right {
+    width: unset;
+    text-align: center;
+    align-items: center;
+    margin-top: -15%;
+  }
+
+  .right p, .right h3 {
+    width: unset;
+  }
+}

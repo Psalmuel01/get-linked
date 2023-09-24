@@ -6,10 +6,29 @@ const Hero = () => {
   return (
     <div className={classes.hero}>
       <Header />
+      <div className={classes.underline}>
+        <p className={classes.participate}>
+          Igniting a Revolution in HR Innovation
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="185"
+          height="10"
+          viewBox="0 0 255 17"
+          fill="none"
+        >
+          <path
+            d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043"
+            stroke="#FF26B9"
+            strokeWidth="5"
+          />
+        </svg>
+      </div>
       <div className={classes["hero-body"]}>
         <img className={classes.star} src="src/assets/star.png" alt="" />
         <img className={classes.star} src="src/assets/star-dead.png" alt="" />
         <img className={classes.star} src="src/assets/star-dead.png" alt="" />
+
         <div className={classes.left}>
           <div>
             <h1>
@@ -46,25 +65,6 @@ const Hero = () => {
           </div>
         </div>
         <div className={classes.right}>
-          <div className={classes.underline}>
-            <p className={classes.participate}>
-              Igniting a Revolution in HR Innovation
-            </p>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="185"
-              height="10"
-              viewBox="0 0 255 17"
-              fill="none"
-            >
-              <path
-                d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043"
-                stroke="#FF26B9"
-                strokeWidth="5"
-              />
-            </svg>
-          </div>
-
           <img className={classes.image} src="src/assets/Image.png" alt="" />
           <img
             className={classes["man-img"]}

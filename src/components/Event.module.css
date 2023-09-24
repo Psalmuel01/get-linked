@@ -22,8 +22,38 @@
   flex: 1 !important;
 }
 
+.num2 {
+  display: none;
+}
+
+.num::before,
+.num2::before {
+  content: "";
+  width: 4px;
+  height: 8%;
+  position: absolute;
+  background-color: #d434fe;
+  transform: translateY(-115%);
+}
+
+.num:nth-child(1):before {
+  height: 12%;
+  width: 10px;
+}
+
+.num h4,
+.num2 h4 {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
+}
+
 .details {
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .time {
@@ -38,13 +68,56 @@
   text-align: right;
 }
 
-.num h4 {
-  width: 53px;
-  height: 53px;
-  border-radius: 50%;
-  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
-}
-
 .colored {
   color: #d434fe;
+}
+
+@media (max-width: 960px) {
+  .event {
+    display: block;
+    /* text-align: center; */
+  }
+
+  .event div {
+    flex: none;
+  }
+
+  .num {
+    display: none;
+  }
+
+  .num2 {
+    display: flex;
+  }
+
+  .num2::before {
+    left: 2.5%;
+  }
+
+  .num2 h4 {
+    width: 42px;
+    height: 42px;
+  }
+
+  .num2 h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .details {
+    text-align: initial;
+    margin-left: 7%;
+  }
+
+  .time {
+    text-align: initial !important;
+  }
+
+  .extra {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 3%;
+  }
 }

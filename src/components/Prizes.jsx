@@ -10,9 +10,9 @@ const Prizes = () => {
       </div>
       <div className={classes.right}>
         <img className={classes.star} src="src/assets/star.png" alt="" />
+        <img className={classes.star} src="src/assets/star-col.png" alt="" />
         <img className={classes.star} src="src/assets/star.png" alt="" />
-        <img className={classes.star} src="src/assets/star.png" alt="" />
-        <img className={classes.star} src="src/assets/star.png" alt="" />
+        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
         <div className={classes.about}>
           <h3>
             Prizes and <span className={classes.colored}>Rewards</span>

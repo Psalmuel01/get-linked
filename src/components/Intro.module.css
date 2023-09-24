@@ -4,10 +4,11 @@
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
   position: relative;
+  gap: 20%;
 }
 
 .left {
-  width: 50%;
+  width: 30%;
   position: relative;
 }
 
@@ -26,6 +27,10 @@
   width: 49.43px;
   height: 57.974px;
   /* transform: rotate(-70.92deg); */
+}
+
+.left .idea {
+  transform: translateX(-20%);
 }
 
 .right {
@@ -61,4 +66,30 @@
   width: 30px;
   height: 36px;
   right: 13.5%;
+}
+
+@media (max-width: 1056px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6% 8%;
+  }
+
+  .left {
+    width: unset;
+  }
+
+  .left .idea {
+    transform: none;
+  }
+
+  .right {
+    width: unset;
+    text-align: center;
+  }
+
+  .right p, .right h3 {
+    width: unset;
+  }
 }
