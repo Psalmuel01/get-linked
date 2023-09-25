@@ -1,5 +1,8 @@
 import Event from "./Event";
 import classes from "./Timeline.module.css";
+import star from "../assets/star.png";
+import starc from "../assets/star-col.png";
+import stard from "../assets/star-dead.png";
 
 const Timeline = () => {
   return (
@@ -12,9 +15,9 @@ const Timeline = () => {
         </p>
       </div>
       <div className={classes.schedule}>
-        <img className={classes.star} src="src/assets/star-col.png" alt="" />
-        <img className={classes.star} src="src/assets/star.png" alt="" />
-        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
+        <img className={classes.star} src={starc} alt="" />
+        <img className={classes.star} src={star} alt="" />
+        <img className={classes.star} src={stard} alt="" />
         <Event
           title="Hackathon Announcement"
           text="The getlinked tech hackathon 1.0 is formally announced to the general

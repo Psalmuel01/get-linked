@@ -1,5 +1,7 @@
 import classes from "./Privacy.module.css";
 import Button from "./Button";
+import mark from "../assets/checkmark.svg";
+import lock from "../assets/padlock.png";
 
 const Privacy = () => {
   return (
@@ -31,7 +33,7 @@ const Privacy = () => {
             </div>
             <div className={classes.license}>
               <div>
-                <img src="src/assets/checkmark.svg" alt="" />
+                <img src={mark} alt="" />
               </div>
               <p>
                 The Standard License grants you a non-exclusive right to
@@ -40,7 +42,7 @@ const Privacy = () => {
             </div>
             <div className={classes.license}>
               <div>
-                <img src="src/assets/checkmark.svg" alt="" />
+                <img src={mark} alt="" />
               </div>
               <p>
                 You are licensed to use the item available at any free source
@@ -78,7 +80,7 @@ const Privacy = () => {
             </linearGradient>
           </defs>
         </svg>
-        <img className={classes.padlock} src="src/assets/padlock.png" alt="" />
+        <img className={classes.padlock} src={lock} alt="" />
       </div>
     </div>
   );

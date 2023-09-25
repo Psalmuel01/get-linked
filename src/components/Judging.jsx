@@ -1,22 +1,27 @@
 import Button from "./Button";
 import classes from "./Judging.module.css";
+import star from "../assets/star.png";
+import starc from "../assets/star-col.png";
+import stard from "../assets/star-dead.png";
+import ellipse from "../assets/ellipse.svg";
+import judging from "../assets/judging.png";
 
 const Judging = () => {
   return (
     <div className={classes.judging}>
       <div className={classes.left}>
-        <img className={classes.star} src="src/assets/star-col.png" alt="" />
-        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
-        <img className={classes.star} src="src/assets/star.png" alt="" />
-        <img className={classes.ellipse} src="src/assets/ellipse.svg" alt="" />
-        <img src="src/assets/judging.png" alt="" />
+        <img className={classes.star} src={starc} alt="" />
+        <img className={classes.star} src={stard} alt="" />
+        <img className={classes.star} src={star} alt="" />
+        <img className={classes.ellipse} src={ellipse} alt="" />
+        <img src={judging} alt="" />
       </div>
       <div className={classes.right}>
         <h3>
           Judging Criteria <br />
           <span className={classes.colored}>Key attributes</span>
         </h3>
-        {/* <img className={classes.star} src="src/assets/star-col.png" alt="" /> */}
+        {/* <img className={classes.star} src={star} alt="" /> */}
         <div className={classes.attributes}>
           <div>
             <p>
