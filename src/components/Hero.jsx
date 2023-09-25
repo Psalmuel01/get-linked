@@ -1,6 +1,13 @@
 import Button from "./Button";
 import Header from "./Header";
 import classes from "./Hero.module.css";
+import star from "../assets/star.png";
+import stard from "../assets/star-dead.png";
+import creative from "../assets/creative.png";
+import chain from "../assets/chain-9365116-7621444.png";
+import fire from "../assets/1f4a5.png";
+import glow from "../assets/Image.png";
+import man from "../assets/man-wearing-smart-glasses-touching-virtual-screen.png";
 
 const Hero = () => {
   return (
@@ -25,25 +32,21 @@ const Hero = () => {
         </svg>
       </div>
       <div className={classes["hero-body"]}>
-        <img className={classes.star} src="src/assets/star.png" alt="" />
-        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
-        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
+        <img className={classes.star} src={star} alt="" />
+        <img className={classes.star} src={stard} alt="" />
+        <img className={classes.star} src={stard} alt="" />
 
         <div className={classes.left}>
           <div>
             <h1>
               <div className={classes.up}>
                 getlinked Tech
-                <img
-                  className={classes.bulb}
-                  src="src/assets/creative.png"
-                  alt=""
-                />
+                <img className={classes.bulb} src={creative} alt="" />
               </div>
               <div className={classes.down}>
                 Hackathon <span className={classes.colored}>1.0</span>
-                <img src="src/assets/chain-9365116-7621444.png" alt="" />
-                <img src="src/assets/1f4a5.png" alt="" />
+                <img src={chain} alt="" />
+                <img src={fire} alt="" />
               </div>
             </h1>
           </div>
@@ -65,12 +68,8 @@ const Hero = () => {
           </div>
         </div>
         <div className={classes.right}>
-          <img className={classes.image} src="src/assets/Image.png" alt="" />
-          <img
-            className={classes["man-img"]}
-            src="src/assets/man-wearing-smart-glasses-touching-virtual-screen.png"
-            alt=""
-          />
+          <img className={classes.image} src={glow} alt="" />
+          <img className={classes["man-img"]} src={man} alt="" />
         </div>
       </div>
     </div>

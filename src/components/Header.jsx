@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Button from "./Button";
 import classes from "./Header.module.css";
 
@@ -13,7 +13,8 @@ const Header = () => {
           <p>Timeline</p>
           <p>Overview</p>
           <p>FAQs</p>
-          <Link to={"/contact"}>Contact</Link>
+          <p>Contact</p>
+          {/* <Link to={"/contact"}>Contact</Link> */}
         </div>
         <Button>Register</Button>
       </div>

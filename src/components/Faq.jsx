@@ -1,10 +1,14 @@
 import classes from "./Faq.module.css";
+import star from "../assets/star.png";
+import starc from "../assets/star-col.png";
+import stard from "../assets/star-dead.png";
+import qimg from "../assets/questions.png";
 
 const Faq = () => {
   return (
     <div className={classes.faq}>
       <div className={classes.left}>
-        <img className={classes.star} src="src/assets/star-col.png" alt="" />
+        <img className={classes.star} src={starc} alt="" />
         <h3>
           Frequently Asked <span className={classes.colored}>Questions</span>
         </h3>
@@ -70,11 +74,11 @@ const Faq = () => {
         </div>
       </div>
       <div className={classes.right}>
-        <img className={classes.qimg} src="./assets/questions.png" alt="" />
-        <img className={classes.star} src="src/assets/star-col.png" alt="" />
-        <img className={classes.star} src="src/assets/star-col.png" alt="" />
-        <img className={classes.star} src="src/assets/star-dead.png" alt="" />
-        <img className={classes.star} src="src/assets/star.png" alt="" />
+        <img className={classes.qimg} src={qimg} alt="" />
+        <img className={classes.star} src={starc} alt="" />
+        <img className={classes.star} src={starc} alt="" />
+        <img className={classes.star} src={stard} alt="" />
+        <img className={classes.star} src={star} alt="" />
       </div>
     </div>
   );
