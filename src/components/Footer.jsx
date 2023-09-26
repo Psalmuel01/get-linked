@@ -1,4 +1,7 @@
 import classes from "./Footer.module.css";
+import star from "../assets/star.png";
+import starc from "../assets/star-col.png";
+import stard from "../assets/star-dead.png";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import facebook from "../assets/facebook.svg";
@@ -9,6 +12,10 @@ import location from "../assets/location.svg";
 const Footer = () => {
   return (
     <div className={classes.footer}>
+      <img className={classes.star} src={star} alt="" />
+      <img className={classes.star} src={starc} alt="" />
+      <img className={classes.star} src={star} alt="" />
+      <img className={classes.star} src={stard} alt="" />
       <div className={classes.grid}>
         <div>
           <div className={classes.top}>

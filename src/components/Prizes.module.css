@@ -184,10 +184,27 @@ img {
 
   .collection {
     margin-top: -15%;
-
   }
 
   .box {
     /* width: 30%; */
+  }
+}
+
+@media (max-width: 1050px) {
+  .collection {
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 840px) {
+  .collection {
+    margin-top: -5%;
+  }
+}
+
+@media (max-width: 670px) {
+  .collection {
+    margin-top: unset;
   }
 }

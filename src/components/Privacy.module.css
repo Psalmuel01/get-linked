@@ -5,9 +5,64 @@
   background: url("src/assets/Purple-Lens-Flare-PNG-2.png"),
     #150e28 -204.25px 7px / 119.817% 104.852% no-repeat;
   background-blend-mode: hard-light;
-  /* text-align: center; */
   display: flex;
+  position: relative;
+  /* text-align: center; */
   /* overflow: hidden; */
+}
+
+.star {
+  position: absolute;
+  /* top: 0; */
+}
+
+.star:nth-child(1) {
+  width: 30px;
+  height: 36px;
+  bottom: 32%;
+  left: 4%;
+}
+
+.star:nth-child(2) {
+  width: 26px;
+  height: 32px;
+  left: 32%;
+  top: 9%;
+}
+
+.star:nth-child(3) {
+  width: 23px;
+  height: 28px;
+  left: 47%;
+  top: 17%;
+}
+
+.star:nth-child(4) {
+  width: 15px;
+  height: 18px;
+  right: 16%;
+  top: 21%;
+}
+
+.star:nth-child(5) {
+  width: 15px;
+  height: 18px;
+  right: 40%;
+  bottom: 28%;
+}
+
+.star:nth-child(6) {
+  width: 15px;
+  height: 18px;
+  right: 36%;
+  bottom: 34%;
+}
+
+.star:nth-child(7) {
+  width: 26px;
+  height: 32px;
+  right: 8%;
+  bottom: 25%;
 }
 
 h3 {
@@ -36,6 +91,7 @@ p {
 svg {
   position: absolute;
   right: 7%;
+  top: 9%;
 }
 
 .about {
@@ -94,5 +150,5 @@ svg {
 }
 
 .padlock {
-  margin-top: 30%;
+  margin-top: 27%;
 }

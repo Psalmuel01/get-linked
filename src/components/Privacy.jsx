@@ -1,11 +1,21 @@
 import classes from "./Privacy.module.css";
 import Button from "./Button";
+import star from "../assets/star.png";
+import starc from "../assets/star-col.png";
+import stard from "../assets/star-dead.png";
 import mark from "../assets/checkmark.svg";
 import lock from "../assets/padlock.png";
 
 const Privacy = () => {
   return (
     <div className={classes.privacy}>
+      <img className={classes.star} src={starc} alt="" />
+      <img className={classes.star} src={stard} alt="" />
+      <img className={classes.star} src={starc} alt="" />
+      <img className={classes.star} src={star} alt="" />
+      <img className={classes.star} src={star} alt="" />
+      <img className={classes.star} src={starc} alt="" />
+      <img className={classes.star} src={stard} alt="" />
       <div>
         <div className={classes.about}>
           <h3>
