@@ -82,6 +82,11 @@
     flex: none;
   }
 
+  /* h4 {
+   text-align: left !important;
+   justify-content: left !important;
+  } */
+
   .num {
     display: none;
   }

@@ -101,6 +101,33 @@ h6 {
 .contact {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 15px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+@media (max-width: 960px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .top {
+    margin-bottom: 15px;
+  }
+
+  .links {
+    display: block;
+  }
+
+  .socials {
+    margin-top: 10px;
+  }
 }

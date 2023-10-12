@@ -16,7 +16,7 @@ const Privacy = () => {
       <img className={classes.star} src={star} alt="" />
       <img className={classes.star} src={starc} alt="" />
       <img className={classes.star} src={stard} alt="" />
-      <div>
+      <div className={classes.left}>
         <div className={classes.about}>
           <h3>
             Privacy Policy and <span className={classes.colored}>Terms</span>
@@ -63,7 +63,7 @@ const Privacy = () => {
           <Button>Read More</Button>
         </div>
       </div>
-      <div>
+      <div className={classes.right}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="530"

@@ -172,7 +172,7 @@ img {
     transform: none;
   }
 
-  .right {    
+  .right {
     text-align: center;
     width: 90%;
   }
@@ -191,20 +191,37 @@ img {
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1060px) {
   .collection {
     margin-top: -10%;
+    scale: 0.9;
   }
 }
 
 @media (max-width: 840px) {
-  .collection {
-    margin-top: -5%;
+  .collection,
+  .collection img,
+  .collection h2,
+  h3,
+  h4 {
+    scale: 0.8;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .box {
+    /* width: 100%; */
   }
 }
 
 @media (max-width: 670px) {
-  .collection {
-    margin-top: unset;
+  .collection,
+  .collection img,
+  .collection h2,
+  h3,
+  h4 {
+    scale: 0.7;
   }
 }

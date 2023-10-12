@@ -43,10 +43,12 @@ const Footer = () => {
             <div>
               <p className={classes.colored}>Follow us</p>
             </div>
-            <img src={instagram} alt="" />
-            <img src={twitter} alt="" />
-            <img src={facebook} alt="" />
-            <img src={linkedin} alt="" />
+            <div className={classes.socials}>
+              <img src={instagram} alt="" />
+              <img src={twitter} alt="" />
+              <img src={facebook} alt="" />
+              <img src={linkedin} alt="" />
+            </div>
           </div>
         </div>
         <div className={classes.other}>

@@ -23,7 +23,7 @@ h3 {
 
 .about p {
   font-size: 14px;
-  width: 30%;
+  width: 40%;
 }
 
 .timeline p {
@@ -73,5 +73,9 @@ h3 {
   .star:nth-child(3) {
     bottom: -5%;
     left: -5%;
+  }
+
+  .about p {
+    width: 60%;
   }
 }
