@@ -25,6 +25,15 @@
   font-weight: 400;
 }
 
+.link {
+  text-decoration: none;
+  /* color: linear-gradient(
+    180deg,
+    rgb(144, 58, 255) 0%,
+    rgb(255, 37.9, 184.51) 100%
+  ); */
+}
+
 .line {
   margin-top: -15px;
   border: none;

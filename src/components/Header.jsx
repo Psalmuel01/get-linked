@@ -1,4 +1,5 @@
 // import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from "./Button";
 import classes from "./Header.module.css";
 
@@ -10,11 +11,10 @@ const Header = () => {
           get<span className={classes.colored}>linked</span>
         </h2>
         <div className={classes.navigate}>
-          <p>Timeline</p>
-          <p>Overview</p>
-          <p>FAQs</p>
-          <p>Contact</p>
-          {/* <Link to={"/contact"}>Contact</Link> */}
+          <Link className={classes.link} to={"/"}>Timeline</Link>
+          <Link className={classes.link}>Overview</Link>
+          <Link className={classes.link}>FAQs</Link>
+          <Link className={classes.link} to={"/contact"}>Contact</Link>
         </div>
         <Button>Register</Button>
       </div>

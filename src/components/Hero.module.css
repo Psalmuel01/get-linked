@@ -17,7 +17,8 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  position: relative;
+  position: absolute;
+  left: 25%;
 }
 
 .participate {
@@ -27,7 +28,7 @@
 }
 
 .underline p {
-  padding: 2% 5%;
+  padding: 2% 0;
   font-family: Montserrat;
   font-size: 24px;
   font-style: italic;
@@ -38,9 +39,7 @@
 }
 
 .underline svg {
-  position: absolute;
-  bottom: 20%;
-  transform: translateX(17%);
+  transform: translateY(400%);
 }
 
 .star {
@@ -128,11 +127,17 @@
 }
 
 @media (max-width: 1136px) {
-  .participate {
-    display: flex;
-    align-items: center;
-    /* getlinked hackathon breaks */
-    justify-content: center;
+  .underline {
+    left: 50vw;
+    color: red;
+  }
+
+  .underline p {
+    font-size: smaller;
+  }
+
+  .underline svg {
+    transform: translate(-20%, 300%);
   }
 
   .underline svg {
