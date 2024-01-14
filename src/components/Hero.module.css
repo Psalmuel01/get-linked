@@ -128,8 +128,8 @@
 
 @media (max-width: 1136px) {
   .underline {
-    left: 50vw;
-    color: red;
+    top: 8%;
+    left: 20%;
   }
 
   .underline p {
@@ -170,13 +170,15 @@
     /* justify-content: scart; */
     /* margin: auto; */
     width: 100%;
-    /* padding-top: 6%; */
+    padding-top: 20%;
     padding-bottom: 0;
     /* display: none; */
   }
 
   .left h1 {
     /* width: 100%; */
+    font-size: 40px;
+    text-align: center;
   }
   .left p {
     /* width: 50%; */

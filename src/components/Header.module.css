@@ -49,4 +49,12 @@
   .header {
     margin-bottom: 1%;
   }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .line {
+    margin: unset;
+  }
 }

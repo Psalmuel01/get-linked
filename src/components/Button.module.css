@@ -17,8 +17,8 @@
 }
 
 @media (max-width: 1056px) {
- .button {
-  width: 146px;
-  height: 45px;
- }
+  .button {
+    width: 100px;
+    height: 36px;
+  }
 }
