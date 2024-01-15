@@ -89,7 +89,8 @@
     text-align: center;
   }
 
-  .right p, .right h3 {
+  .right p,
+  .right h3 {
     width: unset;
   }
 }

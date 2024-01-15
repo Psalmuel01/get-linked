@@ -118,6 +118,11 @@
     width: unset;
   }
 
+  .left h3 {
+    text-align: center;
+    width: 100%;
+  }
+
   .left .idea {
     transform: none;
   }
