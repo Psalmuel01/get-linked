@@ -212,7 +212,7 @@ img {
   }
 
   .box {
-    /* width: 100%; */
+    width: 90vw;
   }
 }
 
@@ -222,6 +222,6 @@ img {
   .collection h2,
   h3,
   h4 {
-    scale: 0.7;
+    scale: 0.8;
   }
 }

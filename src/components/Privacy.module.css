@@ -182,16 +182,25 @@ svg {
 
 @media (max-width: 1330px) {
   .right {
-    scale: 0.9;
+    scale: 0;
   }
 }
 
 @media (max-width: 1290px) {
+  .box {
+    width: 90vw;
+    height: 100%;
+  }
+
   .left {
-    /* scale: 0.8; */
+    scale: 0.9;
   }
 
   .right {
     scale: 0.7;
+  }
+
+  .licensing {
+    margin-top: 5px;
   }
 }

@@ -22,7 +22,7 @@ const Privacy = () => {
             Privacy Policy and <span className={classes.colored}>Terms</span>
           </h3>
           <p>Last updated on September 12, 2023</p>
-          <p>
+          <p className={classes.policy}>
             Below are our privacy & policy, which outline a lot of goodies. it’s
             our aim to always take of our participant
           </p>
