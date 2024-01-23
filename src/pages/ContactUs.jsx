@@ -13,14 +13,14 @@ import { MoonLoader } from "react-spinners";
 const ContactUs = () => {
   const [loading, setLoading] = useState(false);
 
-  const schema = yup
-    .object({
-      mail: yup.string().email().required().label("Email"),
-      first_name: yup.string().required().label("First Name"),
-      message: yup.string().required().label("Message"),
-      phone_no: yup.string().required().label("Phone Number"),
-    })
-    .required();
+  // const schema = yup
+  //   .object({
+  //     mail: yup.string().email().required().label("Email"),
+  //     first_name: yup.string().required().label("First Name"),
+  //     message: yup.string().required().label("Message"),
+  //     phone_no: yup.string().required().label("Phone Number"),
+  //   })
+  //   .required();
 
   const {
     register,
